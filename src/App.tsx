@@ -1,7 +1,9 @@
 import { BrowserRouter as Router } from "react-router-dom"
-import { ThemeProvider } from "./app/providers/ThemeProvider"
-import { ToastProvider } from "./app/providers/ToastProvider"
-import AppRouter from "./app/router"
+import { ThemeProvider } from "@/app/providers/ThemeProvider"
+import { ToastProvider } from "@/app/providers/ToastProvider"
+import AppRouter from "@/app/router/index"
+import Navbar from "@/components/layout/Navbar"
+import Footer from "@/components/layout/Footer"
 
 
 
@@ -10,9 +12,11 @@ function App() {
     <ThemeProvider>
       <ToastProvider>
         <Router>
-          <main className="w-full min-h-screen h-fit pt-[100px]">
+          <Navbar />
+          <main className="w-full min-h-screen h-fit">
             <AppRouter />
           </main>
+          <Footer />
         </Router>
       </ToastProvider>
     </ThemeProvider>

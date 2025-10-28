@@ -1,32 +1,34 @@
-import React from 'react';
-import WistiaEmbed from '../../shared/HomeAbout/WistiaEmbed';
+import HeroVideo from '@/app/router/routes/shared/HomeAbout/HeroVideo';
+import Button from "@/components/common/Button"
+import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 
 function Hero() {
-    return (
-        <section className="relative w-full h-fit">
-            <style>{`
-        wistia-player[media-id='q09qb286f2']:not(:defined) {
-          background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/q09qb286f2/swatch');
-          display: block;
-          filter: blur(5px);
-          padding-top: 56.25%;
-        }
-      `}</style>
-            {/* YouTube video background */}
-            <div className="relative w-full h-full z-1 overflow-hidden">
-                <video src="https://res.cloudinary.com/dlovcfdar/video/upload/v1761147937/Website-Video-UAE_oajppm.mp4" autoPlay className='w-full relative z-1 ' muted loop></video>
-            </div>
+    const words = [
+        {
+          text: "Representation",
+          className: "text-5xl text-[#F6F6F6] text-start uppercase font-medium leading-[1.3em] tracking-wide",
+        },
+        {
+          text: "&",
+          className: "text-5xl text-[#F6F6F6] text-start uppercase font-medium leading-[1.3em] tracking-wide",
+        },
+        {
+          text: "Consultants",
+          className: "text-5xl text-[#F6F6F6] text-start uppercase font-medium leading-[1.3em] tracking-wide",
+        },
+      ];
 
-            {/* Content on top */}
-            <div className="absolute top-[50%] -translate-y-1/2 left-[20%] -translate-x-1/2 z-2 flex flex-col items-center justify-center px-10">
-                <h1 className="text-5xl font-bold text-white text-center">
-                    Welcome to My Website
-                </h1>
-                <p className="text-xl text-white mt-4 text-center">
-                    This is some overlay content on top of the video.
+    return (
+        <HeroVideo>
+            <div className="absolute top-[50%] -translate-y-1/2 left-0 z-2 flex flex-col items-start gap-6 justify-center mx-[6vw] w-fit max-w-[800px]">
+                <TypewriterEffect cursorClassName="bg-transparent" className='text-5xl text-[#F6F6F6] text-start uppercase max-w-[480px] font-medium leading-[1.3em] tracking-wide' words={words} />
+                <p className="text-[16px] font-normal leading-[120%] tracking-[1px] text-white text-justify [text-align-last:start] max-w-[800px]">
+                We take pride in partnering with some of the world's most discerning and exclusive hospitality and travel companies. From charming boutique hotels and luxurious beachfront resorts to unique experience-driven camps and serene wellness retreats, our clients offer diverse, unforgettable experiences. Discover the exceptional properties we represent and the unique adventures they provide
                 </p>
+                <Button buttonText="contact us" handleClick={()=>console.log("clicked")} />
+                    <p className='text-[14px] font-normal leading-[120%] tracking-[1px] text-white'>For GCC & Middle East Markets</p>
             </div>
-        </section>
+        </HeroVideo>
     );
 }
 
