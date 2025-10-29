@@ -75,7 +75,7 @@ export const destinationLists = [
         img: "/destinationCard/dubai.png",
         heading: "Dubai, UAE",
         para: "Experience luxury and opulence in the jewel of the Middle East.",
-        link: "/dubai",
+        link: "/uae",
       },
       {
         img: "/destinationCard/saudi-arabia.png",
