@@ -1,9 +1,19 @@
-import React from 'react'
+import Hero from "./components/Hero"
+import Story from "./components/Story"
+import OurValues from "./components/OurValues"
+import Partners from "./components/Partners"
+import Last from "./components/Last"
 
-function index() {
+function About() {
   return (
-    <div>index</div>
+    <div className='w-full h-fit min-h-full'>
+      <Hero />
+      <Story />
+      <OurValues />
+      <Last />
+      <Partners />
+    </div>
   )
 }
 
-export default index
+export default About

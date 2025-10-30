@@ -3,7 +3,7 @@ import Button from "../common/Button";
 
 function Footer() {
   return (
-    <footer className="flex min-h-[455px] h-fit justify-between items-center bg-white border-t-4 border-[#285F69] px-[5vw]">
+    <footer className="flex min-h-[455px] h-fit justify-between items-center bg-white border-t-4 border-[#285F69] px-[5vw] relative">
       <section className="flex flex-col justify-evenly crimson font-semibold text-[16px] tracking-[-1px] text-[#BE8F00] h-fit min-h-[455px] leading-[21px]">
         <section className="flex flex-col gap-4">
           <h4 className="text-[#285F69] font-bold text-[20px]">Quick Links</h4>
@@ -20,7 +20,7 @@ function Footer() {
           <Link to="/maldives">Maldives</Link>
         </section>
       </section>
-      <img src="/logo.png" alt="Logo" className="h-[200px] w-auto" />
+      <img src="/logo.png" alt="Logo" className="h-[200px] w-auto absolute top-1/2 left-1/2 -translate-1/2" />
       <section className="flex flex-col gap-5 justify-center min-w-[280px] max-w-[300px] w-full">
         <h4 className="text-[#285F69] -tracking-px leading-[21px] crimson font-semibold text-[32px]">
           Get in Touch
