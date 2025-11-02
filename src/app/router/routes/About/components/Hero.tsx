@@ -1,8 +1,12 @@
 import Button from "@/components/common/Button";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
-import HeroVideo from "../../shared/HomeAbout/HeroVideo";
+import HeroVideo from "@/app/router/shared/HomeAbout/HeroVideo";
 
-function Hero() {
+interface HeroProps {
+    onVideoLoaded?: () => void;
+}
+
+function Hero({ onVideoLoaded }: HeroProps) {
   const words = [
     {
       text: "GCC",
@@ -11,7 +15,7 @@ function Hero() {
     },
   ];
   return (
-    <HeroVideo>
+    <HeroVideo onVideoLoaded={onVideoLoaded}>
       <div className="absolute top-[50%] -translate-y-1/2 left-1/2 -translate-x-1/2 z-2 flex flex-col items-center gap-6 justify-center w-fit max-w-[800px]">
         <TypewriterEffect
           cursorClassName="bg-transparent"

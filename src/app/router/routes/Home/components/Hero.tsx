@@ -1,8 +1,12 @@
-import HeroVideo from '@/app/router/routes/shared/HomeAbout/HeroVideo';
+import HeroVideo from '@/app/router/shared/HomeAbout/HeroVideo';
 import Button from "@/components/common/Button"
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 
-function Hero() {
+interface HeroProps {
+    onVideoLoaded?: () => void;
+}
+
+function Hero({ onVideoLoaded }: HeroProps) {
     const words = [
         {
           text: "Representation",
@@ -19,7 +23,7 @@ function Hero() {
       ];
 
     return (
-        <HeroVideo>
+        <HeroVideo onVideoLoaded={onVideoLoaded}>
             <div className="absolute top-[50%] -translate-y-1/2 left-0 z-2 flex flex-col items-start gap-6 justify-center mx-[6vw] w-fit max-w-[800px]">
                 <TypewriterEffect cursorClassName="bg-transparent" className='text-5xl text-[#F6F6F6] text-start uppercase max-w-[480px] font-medium leading-[1.3em] tracking-wide' words={words} />
                 <p className="text-[16px] font-normal leading-[120%] tracking-[1px] text-white text-justify [text-align-last:start] max-w-[800px]">

@@ -1,5 +1,5 @@
 import { words } from "../constant/last"
-import ImageText from "../../shared/HomeDest/ImageText"
+import ImageText from "@/app/router/shared/HomeDest/ImageText"
 
 function Last() {
   return (
