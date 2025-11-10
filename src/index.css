@@ -11,6 +11,12 @@ body{
     box-sizing: border-box;
 }
 
+::selection{
+    background-color: #BE8F00 !important;
+    color: white
+}
+
+
 .color-gray{
     color:#F6F6F6;
 }
