@@ -28,6 +28,9 @@ import Turkey from "./routes/Turkey";
 import UAE from "./routes/UAE";
 import Vietnam from "./routes/Vietnam";
 import Zimbabwe from "./routes/Zimbabwe";
+import Austria from "./routes/Austria";
+import UK from "./routes/UK";
+import Philippines from "./routes/Philippines";
 
 export default function AppRouter() {
   return (
@@ -55,6 +58,9 @@ export default function AppRouter() {
       <Route path="/south-korea" element={<SouthKorea />} />
       <Route path="/tanzania" element={<Tanzania />} />
       <Route path="/turkey" element={<Turkey />} />
+      <Route path="/austria" element={<Austria />} />
+      <Route path="/uk" element={<UK />} />
+      <Route path="/philippines" element={<Philippines />} />
       <Route path="/uae" element={<UAE />} />
       <Route path="/vietnam" element={<Vietnam />} />
       <Route path="/zimbabwe" element={<Zimbabwe />} />

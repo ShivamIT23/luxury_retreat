@@ -22,8 +22,8 @@ function Hero({ onVideoLoaded }: HeroProps) {
           className="text-start uppercase"
           words={words}
         />
-        <p className="text-5xl font-semibold leading-[120%] tracking-[1.3px] text-white crimson italic">
-          The Promise of Elevated Indulgence
+        <p className="text-5xl font-semibold leading-[120%] text-center tracking-[1.3px] text-white crimson italic">
+          The Promise of Elevated Luxury Travel and Lifestyle Indulgence
         </p>
         <Button
           buttonText="contact us"

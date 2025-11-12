@@ -5,7 +5,7 @@ function DestinationCard({img,heading,para,link}:{img?:string;heading?:string;pa
   const navigate = useNavigate();
   return (
     <article
-      className="text-white bg-[linear-gradient(to_bottom,rgba(0,0,0,0)_30%,rgba(0,0,0,0.45)_53.1%,rgba(0,0,0,0.72)_100%)] relative h-fit"
+      className="text-white h-full bg-[linear-gradient(to_bottom,rgba(0,0,0,0)_30%,rgba(0,0,0,0.45)_53.1%,rgba(0,0,0,0.72)_100%)] relative h-fit"
       itemScope
       itemType="https://schema.org/Organization"
     >

@@ -130,6 +130,18 @@ export const destinationLists = [
         para: "Explore untouched natural beauty and exclusive island experiences.",
         link: "/greece",
       },
+      {
+        img: "/destinationCard/austria.png",
+        heading: "Austria",
+        para: "Explore untouched natural beauty and exclusive island experiences.",
+        link: "/austria",
+      },
+      {
+        img: "/destinationCard/uk.png",
+        heading: "UK",
+        para: "Explore untouched natural beauty and exclusive island experiences.",
+        link: "/uk",
+      },
     ],
   },
   {
@@ -158,6 +170,12 @@ export const destinationLists = [
         heading: "Vietnam",
         para: "Explore untouched natural beauty and exclusive island experiences.",
         link: "/vietnam",
+      },
+      {
+        img: "/destinationCard/philippines.png",
+        heading: "Philippines",
+        para: "Explore untouched natural beauty and exclusive island experiences.",
+        link: "/philippines",
       },
     ],
   },
