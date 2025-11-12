@@ -4,6 +4,7 @@ import { ToastProvider } from "@/app/providers/ToastProvider"
 import AppRouter from "@/app/router/index"
 import Navbar from "@/components/layout/Navbar"
 import Footer from "@/components/layout/Footer"
+import ScrollToTop from "@/app/providers/ScrollToTop"
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <ThemeProvider>
       <ToastProvider>
         <Router>
+          <ScrollToTop />
           <Navbar />
           <main className="w-full pt-[70px] md:pt-0 min-h-screen h-fit">
             <AppRouter />
