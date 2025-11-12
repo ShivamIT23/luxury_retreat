@@ -35,3 +35,20 @@ export const partnersData = {
   ]
 };
 
+partnersData.partners.push(
+  {
+    name: "Marriott Luxury Hotels",
+    logo: "/about/marriott.png",
+    description: "World-renowned for impeccable service and refined luxury across a collection of award-winning properties."
+  },
+  {
+    name: "The Oberoi Group",
+    logo: "/about/oberoi-group.png",
+    description: "Synonymous with excellence in hospitality, providing legendary experiences in beautiful destinations."
+  },
+  {
+    name: "The One & Only",
+    logo: "/about/one-and-only.png",
+    description: "An exclusive collection of luxury resorts offering unique, immersive escapes in spectacular locations."
+  }
+);

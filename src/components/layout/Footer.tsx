@@ -8,7 +8,7 @@ function Footer() {
         <section className="flex flex-col gap-4">
           <h4 className="text-[#285F69] font-bold text-[20px]">Quick Links</h4>
           <Link to="/">Home</Link>
-          <Link to="/about-us">About Us</Link>
+          <Link to="/about">About Us</Link>
           <Link to="/destination">Destinations</Link>
           <Link to="/contact">Contact</Link>
         </section>
