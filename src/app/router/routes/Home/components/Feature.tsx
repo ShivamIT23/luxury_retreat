@@ -30,6 +30,7 @@ function Feature() {
             </svg>
           </span>
         }
+        handleClick={"/destination"}
         className="px-6 py-3 text-sm uppercase lg:text-base"
       />
     </section>

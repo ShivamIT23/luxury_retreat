@@ -67,7 +67,7 @@ function Represent() {
           <ImageText key={card.text + i} img={card.img} text={card.text} />
         ))}
       </div>
-      <Button buttonText="contact us" className="w-fit px-6 py-3 text-sm uppercase lg:text-base" />
+      <Button buttonText="contact us" handleClick={"/contact"} className="w-fit px-6 py-3 text-sm uppercase lg:text-base" />
     </section>
   )
 }

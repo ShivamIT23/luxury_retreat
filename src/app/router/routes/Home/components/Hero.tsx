@@ -41,7 +41,7 @@ function Hero({ onVideoLoaded }: HeroProps) {
         </p>
         <Button
           buttonText="contact us"
-          handleClick={() => console.log("clicked")}
+          handleClick={"/contact"}
           className="px-6 py-3 text-sm uppercase lg:text-base"
         />
         <p className="text-xs sm:block hidden sm:text-sm lg:text-[14px] font-normal leading-[140%] tracking-[0.5px] text-white/90">

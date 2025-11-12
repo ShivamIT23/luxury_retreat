@@ -80,7 +80,7 @@ function DynamicDestinationSideCard({time,climate,languages,heading}:{time:strin
             <p className="text-sm sm:text-[16px] leading-[140%]">Contact our luxury travel specialists to create
             your bespoke itinerary.</p>
           </div>
-          <Button buttonText="contact us" className="w-full sm:w-fit mx-auto px-6 py-3 text-sm uppercase" />
+          <Button buttonText="contact us" handleClick={"/contact"} className="w-full sm:w-fit mx-auto px-6 py-3 text-sm uppercase" />
         </article>
   )
 }

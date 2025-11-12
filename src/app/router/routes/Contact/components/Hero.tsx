@@ -18,7 +18,7 @@ function Hero() {
       />
       <Button
         buttonText="contact us"
-        handleClick={() => console.log("clicked")}
+        handleClick={"/contact"}
         className="px-6 py-3 text-sm uppercase lg:text-base"
       />
     </HeroImage>

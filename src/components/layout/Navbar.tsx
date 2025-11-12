@@ -68,11 +68,11 @@ function Navbar() {
       </Link>
 
       <div className="ml-auto flex items-center">
-        <Button buttonText="contact us" className="hidden md:inline-flex text-sm md:text-base lg:text-[16px]" />
+        <Button buttonText="contact us" handleClick={"/contact"} className="hidden md:inline-flex text-sm md:text-base lg:text-[16px]" />
         <Button
           buttonText="contact"
           className="md:hidden text-sm px-4 py-2"
-          handleClick={() => setIsMenuOpen(false)}
+          handleClick={"/contact"}
         />
       </div>
 

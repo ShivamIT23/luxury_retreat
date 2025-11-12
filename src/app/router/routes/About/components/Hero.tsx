@@ -21,7 +21,7 @@ function Hero({ onVideoLoaded }: HeroProps) {
         <p className="text-2xl sm:text-3xl lg:text-5xl font-semibold leading-[130%] tracking-[1px] text-white crimson italic">
           The Promise of Elevated Luxury Travel and Lifestyle Indulgence
         </p>
-        <Button buttonText="contact us" handleClick={() => console.log("clicked")} className="px-6 py-3 text-sm uppercase lg:text-base" />
+        <Button buttonText="contact us" handleClick={"/contact"} className="px-6 py-3 text-sm uppercase lg:text-base" />
       </div>
     </HeroVideo>
   )

@@ -24,7 +24,7 @@ function Hero() {
       <p className="text-2xl font-semibold leading-[130%] tracking-[1px] text-white crimson italic sm:text-3xl lg:text-5xl">
         Measurable bookings.
       </p>
-      <Button buttonText="contact us" handleClick={() => console.log("clicked")} className="px-6 py-3 text-sm uppercase lg:text-base" />
+      <Button buttonText="contact us" handleClick={"/contact"} className="px-6 py-3 text-sm uppercase lg:text-base" />
     </HeroImage>
   )
 }
