@@ -40,7 +40,7 @@ function HeroVideo({children, onVideoLoaded}: HeroVideoProps) {
                 <img 
                     src="/homeHero.png" 
                     alt="Hero" 
-                    className={`w-full absolute inset-0 z-10 transition-opacity duration-1000 ease-in-out ${
+                    className={`w-full relative inset-0 z-10 transition-opacity duration-1000 ease-in-out ${
                         videoLoaded ? 'opacity-0 pointer-events-none' : 'opacity-100'
                     }`}
                 />
@@ -51,7 +51,7 @@ function HeroVideo({children, onVideoLoaded}: HeroVideoProps) {
                     autoPlay 
                     preload="metadata"
                     playsInline
-                    className={`w-full relative z-20 transition-opacity duration-1000 ease-in-out ${
+                    className={`w-full absolute top-0 left-0 z-20 transition-opacity duration-1000 ease-in-out ${
                         videoLoaded ? 'opacity-100' : 'opacity-0'
                     }`}
                     muted 

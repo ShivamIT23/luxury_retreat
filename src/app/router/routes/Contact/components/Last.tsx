@@ -1,7 +1,7 @@
 
 function Last() {
   return (
-    <img src="/contact/last.png" alt="Loading" className="w-svw max-w-full h-auto" />
+    <img src="/contact/last.png" alt="Contact" className="w-full max-w-full h-auto" loading="lazy" />
   )
 }
 

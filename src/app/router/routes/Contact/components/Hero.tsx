@@ -6,19 +6,20 @@ function Hero() {
     const words = [
         {
             text:"Contact",
-            className:"text-[#F6F6F6] font-semibold text-[64px] leading-[120%] tracking-[1.3px]"
+            className:"text-[#F6F6F6] font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-[64px] leading-[120%] tracking-[1.3px]"
         }
     ]
   return (
     <HeroImage img="/contact/hero.png">
       <TypewriterEffect
         cursorClassName="bg-transparent"
-        className="text-start uppercase"
+        className="text-center lg:text-start uppercase"
         words={words}
       />
       <Button
         buttonText="contact us"
         handleClick={() => console.log("clicked")}
+        className="px-6 py-3 text-sm uppercase lg:text-base"
       />
     </HeroImage>
   );

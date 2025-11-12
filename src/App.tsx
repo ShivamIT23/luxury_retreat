@@ -13,7 +13,7 @@ function App() {
       <ToastProvider>
         <Router>
           <Navbar />
-          <main className="w-full min-h-screen h-fit">
+          <main className="w-full pt-[70px] md:pt-0 min-h-screen h-fit">
             <AppRouter />
           </main>
           <Footer />

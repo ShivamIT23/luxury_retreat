@@ -1,20 +1,18 @@
-import Button from "@/components/common/Button";
-import BlurText from "@/components/ui/BlurText";
-import { RepresentList } from "../constant/represent";
+import Button from "@/components/common/Button"
+import BlurText from "@/components/ui/BlurText"
+import { RepresentList } from "../constant/represent"
 
 function Represent() {
   return (
-    <section className="gap-8 my-[130px] w-full h-fit px-[5vw] flex flex-col justify-center items-center leading-[120%]">
-      <BlurText className="text-5xl uppercase" text="Who we represent" />
-      <h3 className="text-[#285F69] font-semibold text-3xl tracking-[1.3px] crimson">
+    <section className="my-24 flex w-full h-fit flex-col items-center justify-center gap-8 px-4 sm:px-6 md:px-[5vw] leading-[130%]">
+      <BlurText className="text-3xl sm:text-4xl lg:text-5xl uppercase text-center" text="Who we represent" />
+      <h3 className="text-center text-2xl sm:text-3xl font-semibold tracking-[1.3px] text-[#285F69] crimson">
         Looking to expand your reach? Partner with us today
       </h3>
-      <p className="tracking-[1px] text-center text-[#1e1e1e] text-2xl">
-        Are you a travel or hospitality brand looking to expand your reach,
-        enter new markets, and inspire travelers? We specialize in creating
-        unique travel experiences and helping our partners achieve measurable
-        sales and marketing success. Let&apos;s talk and explore how we can
-        elevate your brand presence and drive results in key global markets.
+      <p className="text-center text-sm sm:text-base lg:text-2xl tracking-[0.5px] text-[#1e1e1e] max-w-5xl">
+        Are you a travel or hospitality brand looking to expand your reach, enter new markets, and inspire travelers? We specialize in
+        creating unique travel experiences and helping our partners achieve measurable sales and marketing success. Let&apos;s talk and
+        explore how we can elevate your brand presence and drive results in key global markets.
       </p>
       <article className="w-fit h-fit gap-4 flex flex-col justify-center items-start text-[#BE8F00] jakarta font-medium text-[12px] leading-[120%] -tracking-px">
         <div className="flex gap-1 items-center">
@@ -59,29 +57,32 @@ function Represent() {
         </div>
       </article>
       <ImageText img="/home/represent1.png" text="Tourism Boards & Destinations" />
-      <div className="grid grid-cols-3 gap-6">
-      {RepresentList.slice(0,3).map((card,i)=>(
-        <ImageText key={i} img={card.img} text={card.text} />
-      ))}
+      <div className="grid w-full gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {RepresentList.slice(0, 3).map((card, i) => (
+          <ImageText key={card.text + i} img={card.img} text={card.text} />
+        ))}
       </div>
-      <div className="grid grid-cols-3 gap-6">
-      {RepresentList.slice(3).map((card,i)=>(
-        <ImageText key={i} img={card.img} text={card.text} />
-      ))}
+      <div className="grid w-full gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {RepresentList.slice(3).map((card, i) => (
+          <ImageText key={card.text + i} img={card.img} text={card.text} />
+        ))}
       </div>
-      <Button buttonText="contact us" className="w-fit" />
+      <Button buttonText="contact us" className="w-fit px-6 py-3 text-sm uppercase lg:text-base" />
     </section>
-  );
+  )
 }
 
-
-function ImageText({img,text}:{img:string;text:string;}){
-    return(
-        <div className="w-full h-fit relative">
-            <img src={img} alt="Represent" className={`w-full h-auto`} />
-            <BlurText text={text} direction="bottom" className="absolute mb-[4%] bottom-0 left-1/2 -translate-x-1/2 text-5xl leading-[120%] tracking-[-1.56px] text-white flex-nowrap whitespace-nowrap text-shadow-[0px_4px_4px_#00000025] font-medium crimson border-b-4 border-[#BE8F00] w-fit"></BlurText>
-        </div>
-    )
+function ImageText({ img, text }: { img: string; text: string }) {
+  return (
+    <div className="relative w-full overflow-hidden rounded-2xl shadow-md">
+      <img src={img} alt={text} className="h-full w-full object-cover" loading="lazy" />
+      <BlurText
+        text={text}
+        direction="bottom"
+        className="absolute bottom-4 left-1/2 w-[90%] -translate-x-1/2 text-center text-2xl leading-[120%] tracking-[-0.5px] text-white sm:text-3xl lg:text-5xl flex-nowrap whitespace-nowrap text-shadow-[0px_4px_4px_#00000025] font-medium crimson border-b-4 border-[#BE8F00] pb-1"
+      ></BlurText>
+    </div>
+  )
 }
 
-export default Represent;
+export default Represent
