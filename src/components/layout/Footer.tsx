@@ -5,46 +5,51 @@ function Footer() {
   return (
     <footer className="relative flex w-full h-fit flex-col bg-white border-t-4 border-[#285F69] px-4 py-12 sm:px-6 md:px-[5vw] md:py-16">
       <div className="flex w-full flex-col gap-12 lg:flex-row lg:items-start lg:justify-between">
-        <section className="grid w-full gap-10 text-[#BE8F00] crimson font-semibold text-sm leading-[140%] tracking-[0.2px] grid-cols-2 md:grid-cols-1 lg:max-w-xl lg:text-base">
-          <div className="flex flex-col gap-3">
+        <section className="grid w-full gap-10 text-[#BE8F00] crimson font-semibold text-sm leading-[140%] justify-evenly tracking-[0.2px] grid-cols-2 lg:grid-cols-1 lg:max-w-xl lg:text-base">
+          <div className="flex flex-col gap-3 items-center lg:items-start">
             <h4 className="text-[#285F69] text-base font-bold sm:text-lg">Quick Links</h4>
-            <Link to="/home" className="hover:text-[#285F69] transition-colors duration-200">
+            <Link to="/home" className="hover:text-[#285F69] transition-colors duration-200 w-fit">
               Home
             </Link>
-            <Link to="/about" className="hover:text-[#285F69] transition-colors duration-200">
+            <Link to="/about" className="hover:text-[#285F69] transition-colors duration-200 w-fit">
               About Us
             </Link>
-            <Link to="/destination" className="hover:text-[#285F69] transition-colors duration-200">
+            <Link to="/destination" className="hover:text-[#285F69] transition-colors duration-200 w-fit">
               Destinations
             </Link>
-            <Link to="/contact" className="hover:text-[#285F69] transition-colors duration-200">
+            <Link to="/contact" className="hover:text-[#285F69] transition-colors duration-200 w-fit">
               Contact
             </Link>
           </div>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 items-center lg:items-start">
             <h4 className="text-[#285F69] text-base font-bold sm:text-lg">Destinations</h4>
-            <Link to="/uae" className="hover:text-[#285F69] transition-colors duration-200">
+            <Link to="/uae" className="hover:text-[#285F69] transition-colors duration-200 w-fit">
               UAE
             </Link>
-            <Link to="/south-africa" className="hover:text-[#285F69] transition-colors duration-200">
+            <Link to="/south-africa" className="hover:text-[#285F69] transition-colors duration-200 w-fit">
               South Africa
             </Link>
-            <Link to="/france" className="hover:text-[#285F69] transition-colors duration-200">
+            <Link to="/france" className="hover:text-[#285F69] transition-colors duration-200 w-fit">
               France
             </Link>
-            <Link to="/maldives" className="hover:text-[#285F69] transition-colors duration-200">
+            <Link to="/maldives" className="hover:text-[#285F69] transition-colors duration-200 w-fit">
               Maldives
             </Link>
           </div>
         </section>
 
-        <div className="flex flex-col items-center justify-center gap-4">
-          <img src="/logo.png" alt="Luxury Retreat logo" className="h-24 w-auto sm:h-32 lg:h-[160px]" loading="lazy" />
+        <div className="flex flex-col items-center justify-center gap-4 w-full lg:w-auto my-auto min-w-[200px]">
+          <img
+            src="/logo.png"
+            alt="Luxury Retreat logo"
+            className=" w-[400px] h-auto max-w-full"
+            loading="lazy"
+          />
         </div>
 
-        <section className="flex w-full max-w-lg flex-col gap-5 rounded-2xl px-6 py-8">
-          <h4 className="crimson text-2xl font-semibold tracking-[0.2px] text-[#285F69] sm:text-3xl">Get in Touch</h4>
-          <div className="flex flex-col gap-3 text-sm leading-[150%] text-[#285F69] sm:text-base">
+        <section className="flex lg:w-full lg:max-w-lg flex-col gap-5 rounded-2xl px-6 py-8 mx-auto lg:mx-0 items-center lg:items-start w-fit">
+          <h4 className="crimson text-2xl font-semibold tracking-[0.2px] text-[#285F69] sm:text-3xl w-full text-left">Get in Touch</h4>
+          <div className="flex flex-col gap-3 text-sm leading-[150%] w-fit text-[#285F69] sm:text-base">
             <div className="flex items-start gap-3">
               <svg width="20" height="20" fill="none" viewBox="0 0 24 24" className="mt-0.5 shrink-0">
                 <path

@@ -1,9 +1,28 @@
 
+import { useState } from "react"
+
 function HeroImage({ img, text, children }: { img: string; text?: string; children?: React.ReactNode }) {
+  const [isLoaded, setIsLoaded] = useState(false)
+
   return (
     <section className="relative w-full h-fit">
       <div className="relative z-[1] h-full w-full overflow-hidden">
-        <img src={img} className="relative h-full w-full object-cover" alt="" loading="lazy" />
+        <img
+          src="/loader.png"
+          alt=""
+          aria-hidden
+          className={`h-full w-full object-cover transition-opacity duration-500 ${isLoaded ? "opacity-0" : "opacity-100"}`}
+        />
+        <img
+          src={img}
+          className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
+            isLoaded ? "opacity-100" : "opacity-0"
+          }`}
+          alt=""
+          loading="lazy"
+          onLoad={() => setIsLoaded(true)}
+          onError={() => setIsLoaded(true)}
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/20" aria-hidden />
       </div>
       {text ? (
