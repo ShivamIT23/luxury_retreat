@@ -7,7 +7,7 @@ export const whatWeDoList = [
             "360 Engagment marketing",
             "Sales calls & B2B workshops"
         ],
-        img:"/home/weDo1.png"
+        img:"/home/weDo1.webp"
     },
     {
         heading:"Marketing research & analysis",
@@ -18,7 +18,7 @@ export const whatWeDoList = [
             "Travel behaviour analysis",
             "Campaign performance tracking"
         ],
-        img:"/home/weDo2.png"
+        img:"/home/weDo2.webp"
     },
     {
         heading:"Marketing and PR",
@@ -28,7 +28,7 @@ export const whatWeDoList = [
             "PR & media outreach & distribution",
             "Online & offline activations"
         ],
-        img:"/home/weDo3.png"
+        img:"/home/weDo3.webp"
     },
     {
         heading:"Digital & social media marketing",
@@ -38,6 +38,6 @@ export const whatWeDoList = [
             "In-house startegic 360 content creation",
             "Influencer marketing"
         ],
-        img:"/home/weDo4.png"
+        img:"/home/weDo4.webp"
     },
 ]

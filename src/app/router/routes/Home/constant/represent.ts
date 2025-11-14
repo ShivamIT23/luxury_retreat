@@ -1,26 +1,26 @@
 export const RepresentList = [
     {
-        img:"/home/represent2.png",
+        img:"/home/represent2.webp",
         text:"Airlines"
     },
     {
-        img:"/home/represent3.png",
+        img:"/home/represent3.webp",
         text:"Attractions"
     },
     {
-        img:"/home/represent4.png",
+        img:"/home/represent4.webp",
         text:"Hotels"
     },
     {
-        img:"/home/represent5.png",
+        img:"/home/represent5.webp",
         text:"Service Providers"
     },
     {
-        img:"/home/represent6.png",
+        img:"/home/represent6.webp",
         text:"Trade Promotions"
     },
     {
-        img:"/home/represent7.png",
+        img:"/home/represent7.webp",
         text:"Cruise Lines"
     },
 ]

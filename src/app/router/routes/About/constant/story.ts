@@ -6,6 +6,6 @@ export const storyData = {
     "As a trusted representation company, Luxury Retreat bridges world-class travel products with the GCC and beyond, combining market intelligence, sales and marketing know-how, and a passion for excellence to drive brand awareness, bookings, and long-term partnerships for our clients.",
     "We don't just create trips — we craft memorable experiences that reflect the highest standards of luxury, hospitality, and personalization."
   ],
-  image: "/about/story.png"
+  image: "/about/story.webp"
 };
 

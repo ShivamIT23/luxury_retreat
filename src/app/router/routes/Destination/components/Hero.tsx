@@ -16,7 +16,7 @@ function Hero() {
     },
   ]
   return (
-    <HeroImage img="/destination/hero.png">
+    <HeroImage img="/destination/hero.webp">
       <TypewriterEffect cursorClassName="bg-transparent" className="text-center uppercase" words={words} />
       <p className="text-2xl font-semibold leading-[130%] tracking-[1px] text-white crimson italic sm:text-3xl lg:text-5xl">
         Local relationships.

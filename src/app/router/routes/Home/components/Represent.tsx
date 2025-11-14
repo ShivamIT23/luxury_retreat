@@ -56,7 +56,7 @@ function Represent() {
             <Button buttonText="whatsapp" />
         </div>
       </article>
-      <ImageText img="/home/represent1.png" text="Tourism Boards & Destinations" />
+      <ImageText img="/home/represent1.webp" text="Tourism Boards & Destinations" />
       <div className="grid w-full gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {RepresentList.slice(0, 3).map((card, i) => (
           <ImageText key={card.text + i} img={card.img} text={card.text} />

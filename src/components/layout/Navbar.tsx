@@ -61,7 +61,7 @@ function Navbar() {
         aria-label="Luxury Retreat Home"
       >
         <img
-          src="/logo.png"
+          src="/logo.webp"
           alt="Luxury Retreat logo"
           className="h-10 md:h-16 lg:h-[100px] w-auto"
         />

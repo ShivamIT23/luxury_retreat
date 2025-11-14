@@ -8,7 +8,7 @@ function Market() {
         Our presence across the Middle East and beyond connects discerning travelers with bespoke experiences worldwide.
       </p>
       <img
-        src="/home/map.png"
+        src="/home/map.webp"
         alt="Map highlighting markets we cover"
         className="mt-4 w-full max-w-3xl sm:max-w-4xl lg:max-w-[1000px]"
         loading="lazy"

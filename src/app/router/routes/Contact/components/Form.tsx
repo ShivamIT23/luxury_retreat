@@ -10,7 +10,7 @@ function Form() {
       />
       <section className="grid grid-cols-1 lg:grid-cols-2 h-fit w-full gap-0 shadow-lg rounded-lg overflow-hidden">
         <img
-          src="/contact/form.png"
+          src="/contact/form.webp"
           alt="Contact"
           className="w-full h-[250px] sm:h-[300px] md:h-[400px] lg:h-full object-cover order-1 lg:order-1"
           loading="lazy"

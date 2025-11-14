@@ -40,7 +40,7 @@ function Footer() {
 
         <div className="flex flex-col items-center justify-center gap-4 w-full lg:w-auto my-auto min-w-[200px]">
           <img
-            src="/logo.png"
+            src="/logo.webp"
             alt="Luxury Retreat logo"
             className=" w-[400px] h-auto max-w-full"
             loading="lazy"

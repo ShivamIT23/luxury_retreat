@@ -10,7 +10,7 @@ function Hero() {
         }
     ]
   return (
-    <HeroImage img="/contact/hero.png">
+    <HeroImage img="/contact/hero.webp">
       <TypewriterEffect
         cursorClassName="bg-transparent"
         className="text-center lg:text-start uppercase"

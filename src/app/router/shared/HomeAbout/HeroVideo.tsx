@@ -38,7 +38,7 @@ function HeroVideo({children, onVideoLoaded}: HeroVideoProps) {
             <div className="relative w-full h-full z-1 overflow-hidden">
                 {/* Placeholder image */}
                 <img 
-                    src="/homeHero.png" 
+                    src="/homeHero.webp" 
                     alt="Hero" 
                     className={`w-full relative inset-0 z-10 transition-opacity duration-1000 ease-in-out ${
                         videoLoaded ? 'opacity-0 pointer-events-none' : 'opacity-100'

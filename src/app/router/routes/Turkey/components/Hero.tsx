@@ -2,7 +2,7 @@ import HeroImage from "@/components/common/HeroImage"
 
 function Hero() {
   return (
-    <HeroImage text="Turkey" img="/turkey/hero.png" />
+    <HeroImage text="Turkey" img="/turkey/hero.webp" />
   )
 }
 

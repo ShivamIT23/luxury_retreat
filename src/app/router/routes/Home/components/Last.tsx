@@ -3,7 +3,7 @@ import ImageText from "@/app/router/shared/HomeDest/ImageText"
 
 function Last() {
   return (
-    <ImageText words={words} img="/home/last.png" />
+    <ImageText words={words} img="/home/last.webp" />
   )
 }
 

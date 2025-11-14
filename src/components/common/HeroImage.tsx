@@ -8,7 +8,7 @@ function HeroImage({ img, text, children }: { img: string; text?: string; childr
     <section className="relative w-full h-fit">
       <div className="relative z-[1] h-full w-full overflow-hidden">
         <img
-          src="/loader.png"
+          src="/loader.webp"
           alt=""
           aria-hidden
           className={`h-full w-full object-cover transition-opacity duration-500 ${isLoaded ? "opacity-0" : "opacity-100"}`}

@@ -10,7 +10,7 @@ function DestinationCard({img,heading,para,link}:{img?:string;heading?:string;pa
       itemType="https://schema.org/Organization"
     >
       <img
-        src={img?img:"/destinationCard/maldives.png"}
+        src={img?img:"/destinationCard/maldives.webp"}
         alt={heading?heading:"Maldives"}
         className="relative w-full h-auto -z-1"
         itemProp="image"

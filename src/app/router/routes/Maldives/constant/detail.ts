@@ -7,5 +7,5 @@ export const maldivesDetail = {
             atolls with over 1,000 coral islands. Known for its crystal-clear
             waters, overwater villas, and unparalleled marine life, it offers
             the perfect escape for those seeking privacy and indulgence.`,
-  img: "/maldives/body.png",
+  img: "/maldives/body.webp",
 };

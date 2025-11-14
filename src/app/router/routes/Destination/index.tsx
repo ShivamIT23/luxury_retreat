@@ -2,6 +2,7 @@ import All from "./components/All"
 import ContactButton from "./components/ContactButton"
 import Hero from "./components/Hero"
 import Last from "./components/Last"
+import WellnessRetreat from "./components/WellnessRetreat"
 
 function Destination() {
   return (
@@ -10,6 +11,7 @@ function Destination() {
         <All />
         <ContactButton />
         <Last />
+        <WellnessRetreat />
     </div>
   )
 }
