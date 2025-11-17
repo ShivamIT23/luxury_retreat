@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from "react-router-dom"
 import { ThemeProvider } from "@/app/providers/ThemeProvider"
 import { ToastProvider } from "@/app/providers/ToastProvider"
-import AppRouter from "@/app/router/index"
+import AppRouter from "@/app/router/routes"
 import Navbar from "@/components/layout/Navbar"
 import Footer from "@/components/layout/Footer"
 import ScrollToTop from "@/app/providers/ScrollToTop"

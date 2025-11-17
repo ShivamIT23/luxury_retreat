@@ -31,6 +31,7 @@ import Zimbabwe from "./routes/Zimbabwe";
 import Austria from "./routes/Austria";
 import UK from "./routes/UK";
 import Philippines from "./routes/Philippines";
+import Spain from "./routes/Spain";
 
 export default function AppRouter() {
   return (
@@ -60,6 +61,7 @@ export default function AppRouter() {
       <Route path="/turkey" element={<Turkey />} />
       <Route path="/austria" element={<Austria />} />
       <Route path="/uk" element={<UK />} />
+      <Route path="/spain" element={<Spain />} />
       <Route path="/philippines" element={<Philippines />} />
       <Route path="/uae" element={<UAE />} />
       <Route path="/vietnam" element={<Vietnam />} />

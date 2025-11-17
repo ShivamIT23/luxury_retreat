@@ -142,6 +142,12 @@ export const destinationLists = [
         para: "Explore untouched natural beauty and exclusive island experiences.",
         link: "/uk",
       },
+      {
+        img: "/destinationCard/spain.webp",
+        heading: "Spain",
+        para: "Explore untouched natural beauty and exclusive island experiences.",
+        link: "/spain",
+      },
     ],
   },
   {
