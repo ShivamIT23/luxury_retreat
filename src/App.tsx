@@ -5,6 +5,7 @@ import AppRouter from "@/app/router/routes"
 import Navbar from "@/components/layout/Navbar"
 import Footer from "@/components/layout/Footer"
 import ScrollToTop from "@/app/providers/ScrollToTop"
+import WhatsApp from "./components/layout/WhatsApp"
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <main className="w-full pt-[70px] md:pt-0 min-h-screen h-fit">
             <AppRouter />
           </main>
+          <WhatsApp />
           <Footer />
         </Router>
       </ToastProvider>

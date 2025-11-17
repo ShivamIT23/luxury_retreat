@@ -4,7 +4,7 @@ export const destinationLists = [
     cards: [
       {
         img: "/destinationCard/wellness.webp",
-        heading: "wellness retreats",
+        heading: "Wellness Retreats",
         para: "Immerse yourself in serene sanctuaries designed for holistic rejuvenation and mindful escape.",
         link: "/wellness",
       },
