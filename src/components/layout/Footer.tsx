@@ -4,7 +4,7 @@ import Button from "../common/Button";
 function Footer() {
   return (
     <footer className="relative flex w-full h-fit flex-col bg-white border-t-4 border-[#285F69] px-4 py-12 sm:px-6 md:px-[5vw] md:py-16">
-      <div className="flex w-full flex-col gap-12 lg:flex-row lg:items-start lg:justify-between">
+      <div className="flex w-full flex-col gap-12 lg:flex-row lg:items-center lg:justify-between">
         <section className="flex w-full gap-10 text-[#BE8F00] crimson font-semibold text-sm leading-[140%] justify-center items-center tracking-[0.2px] lg:max-w-xl lg:text-base">
           <div className="flex flex-col gap-3 items-center lg:items-start">
             <h4 className="text-[#285F69] text-base font-bold sm:text-lg">Quick Links</h4>

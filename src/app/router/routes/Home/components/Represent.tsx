@@ -50,7 +50,7 @@ function Represent() {
               stroke-linejoin="round"
             />
           </svg>
-          info.rep@luxuryretreat.com
+          info.rep@luxuryretreat.ae
         </div>
         <div className="flex gap-3">
           <Link to={"mailto:info.rep@luxuryretreat.ae"} target="_blank" className="w-fit h-fit">
