@@ -60,7 +60,7 @@ function CardWithDetail({ card }: CardType) {
             </p>
           ))}
         </div>
-        <Button buttonText="learn more" className="w-fit px-6 py-2 text-sm uppercase lg:text-base" />
+        <Button buttonText="learn more" handleClick={"/about"} className="w-fit px-6 py-2 text-sm uppercase lg:text-base" />
       </div>
       <img
         src={card.img}
