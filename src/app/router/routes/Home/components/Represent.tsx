@@ -1,6 +1,7 @@
 import Button from "@/components/common/Button"
 import BlurText from "@/components/ui/BlurText"
 import { RepresentList } from "../constant/represent"
+import { Link } from "react-router-dom";
 
 function Represent() {
   return (
@@ -52,8 +53,12 @@ function Represent() {
           info.rep@luxuryretreat.com
         </div>
         <div className="flex gap-3">
+          <Link to={"mailto:info.rep@luxuryretreat.ae"} target="_blank" className="w-fit h-fit">
             <Button buttonText="email" />
+          </Link>
+          <Link to={"https://wa.me/971555668446"} target="_blank" className="w-fit h-fit">
             <Button buttonText="whatsapp" />
+          </Link>
         </div>
       </article>
       <ImageText img="/home/represent1.webp" text="Tourism Boards & Destinations" />

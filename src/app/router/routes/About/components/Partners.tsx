@@ -9,7 +9,7 @@ function Partners() {
         {partnersData.subtitle}
       </p>
       <div className="mt-10 grid w-full gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {partnersData.partners.map((partner, index) => (
+        {partnersData.partners.slice(0, 6).map((partner, index) => (
           <article
             key={index}
             className="flex h-full flex-col items-center justify-start gap-6 overflow-hidden rounded-[12px] bg-white p-8 text-center shadow-lg transition-shadow hover:shadow-xl md:p-10"
@@ -23,6 +23,22 @@ function Partners() {
             </div>
           </article>
         ))}
+      </div>
+      <div className="flex justify-center items-center mt-6 sm:w-1/2 lg:w-1/3 mx-auto">
+        {partnersData.partners[6] && (
+          <article
+            key={6}
+            className="flex h-full flex-col items-center justify-start gap-6 overflow-hidden rounded-[12px] bg-white p-8 text-center shadow-lg transition-shadow hover:shadow-xl md:p-10"
+          >
+            <img src={partnersData.partners[6].logo} alt={partnersData.partners[6].name} className="h-14 w-auto object-contain sm:h-16" loading="lazy" />
+
+            {/* Partner Info */}
+            <div className="flex w-full grow flex-col items-center gap-3">
+              <BlurText text={partnersData.partners[6].name} className="text-lg sm:text-xl lg:text-[20px] leading-[28px]" />
+              <p className="text-sm sm:text-base lg:text-[16px] leading-[150%] text-[#4B5563]">{partnersData.partners[6].description}</p>
+            </div>
+          </article>
+        )}
       </div>
     </section>
   )

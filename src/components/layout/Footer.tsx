@@ -49,7 +49,9 @@ function Footer() {
                 <p>Dubai, United Arab Emirates</p>
               </div>
             </div>
-            <Button buttonText="google maps" className="w-fit px-5 py-2 text-sm uppercase" />
+            <Link to={"https://maps.app.goo.gl/DMAT2xSpuYCdApHC6"} target="_blank" className="w-fit h-fit">
+              <Button buttonText="google maps" className="w-fit px-5 py-2 text-sm uppercase" />
+            </Link>
             <article className="flex flex-col gap-3 text-[#BE8F00] jakarta font-medium text-sm leading-[140%]">
               <div className="flex items-center gap-2">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,11 +75,15 @@ function Footer() {
                     strokeLinejoin="round"
                   />
                 </svg>
-                <span>info.rep@luxuryretreat.com</span>
+                <span>info.rep@luxuryretreat.ae</span>
               </div>
               <div className="flex gap-3">
-                <Button buttonText="email" className="px-5 py-2 text-sm uppercase" />
-                <Button buttonText="whatsapp" className="px-5 py-2 text-sm uppercase" />
+                <Link to={"mailto:info.rep@luxuryretreat.ae"} target="_blank" className="w-fit h-fit">
+                  <Button buttonText="email" className="px-5 py-2 text-sm uppercase" />
+                </Link>
+                <Link to={"https://wa.me/971555668446"} target="_blank" className="w-fit h-fit">
+                  <Button buttonText="whatsapp" className="px-5 py-2 text-sm uppercase" />
+                </Link>
               </div>
             </article>
           </div>

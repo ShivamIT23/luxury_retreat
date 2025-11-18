@@ -41,14 +41,14 @@ partnersData.partners.push(
     logo: "/about/marriott.webp",
     description: "World-renowned for impeccable service and refined luxury across a collection of award-winning properties."
   },
-  {
-    name: "The Oberoi Group",
-    logo: "/about/oberoi-group.webp",
-    description: "Synonymous with excellence in hospitality, providing legendary experiences in beautiful destinations."
-  },
-  {
-    name: "The One & Only",
-    logo: "/about/one-and-only.webp",
-    description: "An exclusive collection of luxury resorts offering unique, immersive escapes in spectacular locations."
-  }
+  // {
+  //   name: "The Oberoi Group",
+  //   logo: "/about/oberoi-group.webp",
+  //   description: "Synonymous with excellence in hospitality, providing legendary experiences in beautiful destinations."
+  // },
+  // {
+  //   name: "The One & Only",
+  //   logo: "/about/one-and-only.webp",
+  //   description: "An exclusive collection of luxury resorts offering unique, immersive escapes in spectacular locations."
+  // }
 );
