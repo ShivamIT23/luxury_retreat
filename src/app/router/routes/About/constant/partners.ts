@@ -3,7 +3,7 @@ export const partnersData = {
   subtitle: "We collaborate with the most prestigious brands in the luxury travel industry to ensure you experience nothing but the best.",
   partners: [
     {
-      name: "Oberoi Hotels",
+      name: "The Oberoi Hotels",
       logo: "/about/oberoi.webp",
       description: "Legendary service and genuine care in the world's most exceptional properties and destinations."
     },
@@ -28,7 +28,7 @@ export const partnersData = {
       description: "Ultra-luxury resorts in the most exotic locations, offering privacy, exclusivity, and unrivalled experiences."
     },
     {
-      name: "One and only resorts",
+      name: "The One and only resorts",
       logo: "/about/resort.webp",
       description: "Luxury hotels and resorts connecting travelers to authentic experiences with indigenous elements."
     }
